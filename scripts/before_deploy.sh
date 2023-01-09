@@ -1,5 +1,5 @@
 #!/bin/bash
 cd /backup
-rm -rf ROOT.war scripts appspec.yml
+rm -rf ROOT
 cd /usr/local/tomcat/webapps
-mv -f ROOT appspec.yml scripts ROOT.war /backup/
+mv -f ROOT /backup/
