@@ -1,3 +1,2 @@
 #!/bin/bash  
-cd /usr/local/tomcat/bin/
-./startup.sh
+/usr/local/tomcat/bin/startup.sh
