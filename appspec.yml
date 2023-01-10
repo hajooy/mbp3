@@ -13,7 +13,7 @@ permissions:
       - file
 hooks:
   ApplicationStop:
-    - location: scripts/stop_tomcat.sh
+    - location: scripts/st_op_tomcat.sh
       timeout: 300
       runas: root
   BeforeInstall:
